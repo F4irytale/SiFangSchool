@@ -1,0 +1,1 @@
+<view><textarea class="return" placeholder="如果您想了解更多,请告诉我们" data-event-opts="{{[['input',[['input',['$event']]]]]}}" bindinput="__e"></textarea><button data-event-opts="{{[['tap',[['comment',['$event']]]]]}}" class="add" bindtap="__e">确定反馈</button></view>

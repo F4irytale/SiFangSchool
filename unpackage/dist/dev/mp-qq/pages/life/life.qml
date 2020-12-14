@@ -1,0 +1,1 @@
+<view><view class="one-word"><text>一句毒鸡汤：</text><block qq:for="{{message}}" qq:for-item="item" qq:for-index="__i0__" qq:key="content"><block>{{''+item.content+''}}</block></block></view></view>

@@ -1,0 +1,23 @@
+
+.return{
+	background-color: #e0e0e0;
+	padding: 10rpx;
+	margin: 0 auto;
+	margin-top: 50rpx;
+	border-radius: 5rpx;
+	width: 700rpx;
+	height: 400rpx;
+	font-size: 40rpx;
+}
+.add{
+	background-color: #4fc3f7;
+	width: 700rpx;
+	margin-top: 50rpx;
+	color: #fff;
+	line-height: 100rpx;
+	font-size: 40rpx;
+	margin-bottom: 50rpx;
+}
+.ad{
+}
+

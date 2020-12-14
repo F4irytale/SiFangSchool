@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/comment/comment",
+    "pages/notice/notice",
+    "pages/life/life"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": [
+        "content/content"
+      ]
+    },
+    {
+      "root": "pagesB",
+      "pages": [
+        "life/life"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "preloadRule": {
+    "pagesB/life/life": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap67.json"
+}

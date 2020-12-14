@@ -1,0 +1,1 @@
+<view><block qq:for="{{news}}" qq:for-item="item" qq:for-index="__i0__" qq:key="number"><block><view class="container"><view class="title">{{item.title}}</view><text class="content">{{item.content}}</text></view></block></block></view>
